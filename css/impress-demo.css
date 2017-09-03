@@ -55,12 +55,11 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-    background: #f1da36; /* Old browsers */
-    background: -webkit-linear-gradient(#f1da36 0%, #fefcea 100%);
-    background: -moz-linear-gradient(#f1da36 0%, #fefcea 100%);
-    background: -o-linear-gradient(#f1da36 0%, #fefcea 100%);
-    background: linear-gradient(#f1da36 0%, #fefcea 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+    background-color: #f1da36; /* Old browsers */
+    background: url("../img/git.png") no-repeat center center, linear-gradient(#f1da36 0%, #fefcea 100%);
+    background-color: url("../img/git.png") no-repeat center center,-webkit-linear-gradient(#f1da36 0%, #fefcea 100%);
+    background-color: url("../img/git.png") no-repeat center center,-moz-linear-gradient(#f1da36 0%, #fefcea 100%);
+    background-color: url("../img/git.png") no-repeat center center,-o-linear-gradient(#f1da36 0%, #fefcea 100%);
 }   
 
 /*
